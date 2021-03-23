@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adlink/Desktop/Samples/Neon-20xB/C++/Capture_and_Inference/tools/trt-console/trt-console.cpp
+stdio.h
+-
+

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaFont.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaNormalize.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaOverlay.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaRGB.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaResize.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-affine.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-fisheye.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaWarp-intrinsic.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-NV12.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-YUYV.cu.o"
+  "CMakeFiles/jetson-utils.dir/cuda/jetson-utils_generated_cudaYUV-YV12.cu.o"
+  "CMakeFiles/jetson-utils.dir/XML.cpp.o"
+  "CMakeFiles/jetson-utils.dir/commandLine.cpp.o"
+  "CMakeFiles/jetson-utils.dir/filesystem.cpp.o"
+  "CMakeFiles/jetson-utils.dir/timespec.cpp.o"
+  "CMakeFiles/jetson-utils.dir/camera/gstCamera.cpp.o"
+  "CMakeFiles/jetson-utils.dir/camera/indCamera.cpp.o"
+  "CMakeFiles/jetson-utils.dir/camera/v4l2Camera.cpp.o"
+  "CMakeFiles/jetson-utils.dir/codec/gstDecoder.cpp.o"
+  "CMakeFiles/jetson-utils.dir/codec/gstEncoder.cpp.o"
+  "CMakeFiles/jetson-utils.dir/codec/gstUtility.cpp.o"
+  "CMakeFiles/jetson-utils.dir/display/glDisplay.cpp.o"
+  "CMakeFiles/jetson-utils.dir/display/glTexture.cpp.o"
+  "CMakeFiles/jetson-utils.dir/image/imageIO.cpp.o"
+  "CMakeFiles/jetson-utils.dir/input/devInput.cpp.o"
+  "CMakeFiles/jetson-utils.dir/input/devJoystick.cpp.o"
+  "CMakeFiles/jetson-utils.dir/input/devKeyboard.cpp.o"
+  "CMakeFiles/jetson-utils.dir/network/IPv4.cpp.o"
+  "CMakeFiles/jetson-utils.dir/network/NetworkAdapter.cpp.o"
+  "CMakeFiles/jetson-utils.dir/network/Socket.cpp.o"
+  "CMakeFiles/jetson-utils.dir/threads/Event.cpp.o"
+  "CMakeFiles/jetson-utils.dir/threads/Mutex.cpp.o"
+  "CMakeFiles/jetson-utils.dir/threads/Process.cpp.o"
+  "CMakeFiles/jetson-utils.dir/threads/Thread.cpp.o"
+  "../aarch64/lib/libjetson-utils.pdb"
+  "../aarch64/lib/libjetson-utils.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/jetson-utils.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

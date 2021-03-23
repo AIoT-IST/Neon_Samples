@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adlink/Desktop/Samples/Neon-20xB/C++/Capture_and_Inference/utils/camera/v4l2-console/v4l2-console.cpp
+v4l2Camera.h
+/home/adlink/Desktop/Samples/Neon-20xB/C++/Capture_and_Inference/utils/camera/v4l2-console/v4l2Camera.h
+stdio.h
+-
+signal.h
+-
+
+aarch64/include/jetson-utils/v4l2Camera.h
+linux/videodev2.h
+-
+stdint.h
+-
+string
+-
+vector
+-
+
