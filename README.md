@@ -66,11 +66,6 @@
     cd [Sample Path]/Samples/Neon-20xA/Python/Capture
     ./Capture-appropho.py
   ```
-  - Gstreamer
-  ```
-    cd [Sample Path]/Samples/Neon-20xA/Python/Capture
-    ./capture.sh
-  ```
   - Capture and Inference
     ```
     cd [Sample Path]/Samples/Neon-20xA/Python/Inference
