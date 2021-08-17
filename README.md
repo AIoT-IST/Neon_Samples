@@ -17,19 +17,19 @@
 -  C++
     - Build Sample
 	  ```
-	    cd [Sample Path]/Samples/Neon-20xB/C++/Capture_and_Inference
+	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference
 	    mkdir build
 	    cmake ..
 	    make -j$(nproc)
 	  ```
     - Capture and Inference
 	  ```
-	    cd [Sample Path]/Samples/Neon-20xB/C++/Capture_and_Inference/build
+	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference/build
 	    ./aarch64/bin/imagenet-camera [input_width] [input_height]
 	  ```
       For example, resolution of camera is 1920x1080, please tpye:
         ```
-          cd [Sample Path]/Samples/Neon-20xB/C++/Capture_and_Inference/build
+          cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference/build
           ./aarch64/bin/imagenet-camera 1920 1080
         ```
         ```
@@ -37,25 +37,25 @@
         ```
       For example, input image you want to classfy, please tpye:
         ```
-          cd [Sample Path]/Samples/Neon-20xB/C++/Capture_and_Inference/build
+          cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference/build
           ./aarch64/bin/imagenet-console ./aarch64/bin/jellyfish.jpg ./aarch64/bin/output.jpg
         ```    
 - Python
   - Preview
   ```
-    cd [Sample Path]/Samples/Neon-20xB/Python/Capture
+    cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Capture
     ./Capture-basler.py
   ```
   - Grab one image
 
   ```
-    cd [Sample Path]/Samples/Neon-20xB/Python/Capture
+    cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Capture
     ./OneShot-basler.py
   ```
   - Inference
 
   ```
-    cd [Sample Path]/Samples/Neon-20xB/Python/Inference
+    cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Inference
     ./detectnet-basler.py
   ```
 
@@ -63,11 +63,11 @@
 - Python
   - Preview by Opencv
   ```
-    cd [Sample Path]/Samples/Neon-20xA/Python/Capture
+    cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Capture
     ./Capture-appropho.py
   ```
   - Capture and Inference
     ```
-    cd [Sample Path]/Samples/Neon-20xA/Python/Inference
+    cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Inference
     ./detectnet-appropho.py
   ```
