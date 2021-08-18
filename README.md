@@ -1,7 +1,7 @@
 # Sample version v1.0.0
 # Capture and Inference python sample code of Neon series 
 ## Prerequisites:
-  **Note: Neon-2000-JNX preinstall the packges by default.**
+  **Note: Neon-2000-JNX preinstall following packages by default.**
   - Install pypylon
   ```
     sudo apt-get update
@@ -19,6 +19,7 @@
 	  ```
 	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference
 	    mkdir build
+      cd build
 	    cmake ..
 	    make -j$(nproc)
 	  ```
