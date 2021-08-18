@@ -19,7 +19,7 @@
 	  ```
 	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference
 	    mkdir build
-      cd build
+            cd build
 	    cmake ..
 	    make -j$(nproc)
 	  ```
