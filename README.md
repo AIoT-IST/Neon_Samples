@@ -21,7 +21,6 @@ sudo apt-get install cmake qt{4,5}-qmake libqt4-dev libglew-dev dialog
 2. Add libnvidia
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/pylon5/lib64:/usr/lib/aarch64-linux-gnu/
 
-install necessary libary (need Internet) sudo apt-get install cmake qt{4,5}-qmake libqt4-dev libglew-dev dialog
 -  C++
     - Build Sample
 	  ```
