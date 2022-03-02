@@ -14,10 +14,19 @@
   
 ## Run Sample
 ### Neon-20xB camera
+#### Pre-build requirement 
+1. install necessary libary (need Internet)
+sudo apt-get install cmake qt{4,5}-qmake libqt4-dev libglew-dev dialog
+
+2. Add libnvidia
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/pylon5/lib64:/usr/lib/aarch64-linux-gnu/
+
+install necessary libary (need Internet) sudo apt-get install cmake qt{4,5}-qmake libqt4-dev libglew-dev dialog
 -  C++
     - Build Sample
 	  ```
 	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference
+	    rm -rf build
 	    mkdir build
         cd build
 	    cmake ..
