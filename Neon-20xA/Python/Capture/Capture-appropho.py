@@ -17,7 +17,7 @@ def main():
     # --------Appropho camera--------------------
         
     log.info("Starting initialize Appropho camera...")
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0,cv2.CAP_V4L)
 
     #Check if camera was opened correctly
     if not (cap.isOpened()):

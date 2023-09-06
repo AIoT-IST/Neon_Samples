@@ -1,5 +1,5 @@
-# Sample version v1.0.0
-# Capture and Inference python sample code of Neon series 
+# Sample version v1.0.1
+# Capture and Inference C++/python sample code of Neon series 
 ## Prerequisites:
   **Note: Neon-2000-JNX preinstall following packages by default.**
   - Install pypylon
@@ -21,7 +21,7 @@ sudo apt-get install cmake qt{4,5}-qmake libqt4-dev libglew-dev dialog
 2. Add libnvidia
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/pylon5/lib64:/usr/lib/aarch64-linux-gnu/
 
--  C++
+-  C++ (for Jetpack 4.6.1 only)
     - Build Sample
 	  ```
 	    cd [Sample Path]/Neon_Samples/Neon-20xB/C++/Capture_and_Inference
@@ -53,30 +53,44 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/pylon5/lib64:/usr/lib/aarch64-linux
   - Preview
   ```
     cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Capture
-    ./Capture-basler.py
+    python3 Capture-basler.py
   ```
   - Grab one image
 
   ```
     cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Capture
-    ./OneShot-basler.py
+    python3 OneShot-basler.py
   ```
   - Inference
 
   ```
     cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Inference
-    ./detectnet-basler.py
+    python3 detectnet-basler.py
   ```
-
-### Neon-20xA camera
+  - Trigger by Basler camera (Neon-20xB)
+  ```
+    cd [Sample Path]/Neon_Samples/Neon-20xB/Python/Trigger
+    python3 Trigger_Basler.py
+  ```
+  ### Neon-20xA camera
 - Python
   - Preview by Opencv
   ```
     cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Capture
-    ./Capture-appropho.py
+    python3 Capture-appropho.py
   ```
   - Capture and Inference
-    ```
+  ```
     cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Inference
-    ./detectnet-appropho.py
+    python3 detectnet-appropho.py
+  ```
+  - Trigger for Neon-201A ONLY
+  ```
+    cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Trigger
+    python3 Trigger_201A.py
+  ```
+  - Trigger by DI callback function of Neon camera
+    ```
+    cd [Sample Path]/Neon_Samples/Neon-20xA/Python/Trigger
+    python3 TriggerAndCapture_20xA.py
   ```
