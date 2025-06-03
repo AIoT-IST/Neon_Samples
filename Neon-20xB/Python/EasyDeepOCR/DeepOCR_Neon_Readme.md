@@ -98,4 +98,20 @@ python3.11 OCR_preview.py
 ## 🧠 Notes
 
 - Default GPU (TensorRT) inference initialization can take ~21 minutes. Use CPU mode for quicker startup.
-- Ensure the camera is c
+- Ensure the camera is connected and detected before running.
+
+## 🔐 Licensing Requirement
+
+To run this sample, a valid Euresys license is required. Please ensure you have one of the following combinations:
+
+- **Neo Dongle (ID: 6514)** with **EasyDeepOCR License (ID: 4341)**
+- **USB Dongle (ID: 6512)** with **EasyDeepOCR License (ID: 4191)**
+
+Without a valid license, the OCR functionality will not be available.
+
+---
+
+<video width="640" height="360" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
